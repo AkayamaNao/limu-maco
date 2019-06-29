@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>LIMUまこっちゃん弁当</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" ;; rel="stylesheet">
+    <style>
+        div {
+            line-height: 1.2;
+        }
+
+        body {
+            width: auto;
+            -webkit-text-size-adjust: 100%;
+            background-color: #e6ecf0;
+        }
+
+        #main {
+            padding: 0 4%;
+        }
+
+        #login .container #login-row #login-column .login-box {
+            margin-top: 120px;
+            max-width: 600px;
+            height: 320px;
+            border: 1px solid #9C9C9C;
+        }
+
+        #login .container #login-row #login-column .login-box #login-form {
+            padding: 20px;
+        }
+
+        #login .container #login-row #login-column .login-box #login-form #register-link {
+            margin-top: -85px;
+        }
+
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#togglebar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">LIMUまこっちゃん弁当</a>
+        </div>
+        <div class="collapse navbar-collapse" id="togglebar">
+            <ul class="nav navbar-nav navbar-right">
+                <a href="/data">
+                	<button type="button" class="btn btn-default navbar-btn">過去の注文</button>
+            	</a>
+                <a href="/logout">
+                    <button type="button" class="btn btn-default navbar-btn">ログアウト</button>
+                </a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container main" style=" margin-top: 60px;">
+    <div class="login-box col-md-12">
+        {% for row in data %}
+        <li class="list-group-item" style="padding:5px 5px;">
+            <div class="clearfix box_wrap">
+                <a href="/data/{{row}}">
+                    <div class="box_left" style="font-size:20px;margin-top: 5px">{{row}}</div>
+                </a>
+            </div>
+        </li>
+        {% endfor %}
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

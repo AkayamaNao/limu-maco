@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>LIMUまこっちゃん弁当</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" ;; rel="stylesheet">
+    <style>
+        div {
+            line-height: 1.2;
+        }
+
+        body {
+            width: auto;
+            -webkit-text-size-adjust: 100%;
+            background-color: #e6ecf0;
+        }
+
+        #main {
+            padding: 0 4%;
+        }
+
+        #login .container #login-row #login-column .login-box {
+            margin-top: 120px;
+            max-width: 600px;
+            height: 320px;
+            border: 1px solid #9C9C9C;
+        }
+
+        #login .container #login-row #login-column .login-box #login-form {
+            padding: 20px;
+        }
+
+        #login .container #login-row #login-column .login-box #login-form #register-link {
+            margin-top: -85px;
+        }
+
+
+    </style>
+</head>
+<body>
+<script src="static/sha256.js"></script>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">LIMUまこっちゃん弁当</a>
+        </div>
+    </div>
+</nav>
+<div class="container main" style=" margin-top: 60px;">
+    <div class="login-box col-md-12">
+        {% if error %}
+        <label style="color:#ff0000;">{{ error }}</label>
+        {% endif %}
+        <form id="login-form" class="form" method="post" action="" onsubmit="genhash();">
+            <div class="form-group">
+                <label for="password" class="text-info">パスワード:</label><br>
+                <input type="password" name="password" id="password" class="form-control">
+                <input type="text" name="hashed_password" style="display: none;">
+            </div>
+            <div class="form-group">
+                <input type="submit" name="submit" class="btn btn-info btn-md" value="ログイン">
+            </div>
+        </form>
+        <script>
+            function genhash() {
+                const password = document.querySelector('input#password').value;
+                const hashed_password = document.querySelector('input[name=hashed_password]');
+
+                const sha = new jsSHA('SHA-256', 'TEXT');
+                sha.update(password);
+                hashed_password.value = sha.getHash('HEX');
+            }
+        </script>
+    </div>
+</div>
+</body>
+</html>
