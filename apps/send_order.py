@@ -21,7 +21,7 @@ s = Session()
 
 now=datetime.datetime.now()
 message_date = now.strftime('%Y/%m/%d %H:%M:%S')
-tomorrow=now+datetime.timedelta(days=2)
+tomorrow=now+datetime.timedelta(days=1)
 tomorrow_str=tomorrow.strftime('%Y%m%d')
 menu = s.query(models.Menu).filter_by(finish=0,date=int(tomorrow_str)).first()
 if menu is not None:
