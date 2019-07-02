@@ -60,8 +60,8 @@ if menu is not None:
                 member.append([row[0], row[3]])
         random.seed(datetime.datetime.now().timestamp())
         deli = member[random.randrange(len(member))]
-        # s.add(models.Delivery(date, deli[1]))
-        # s.commit()
+        s.add(models.Delivery(date, deli[1]))
+        s.commit()
         group_payload = {'message': '\n' + message + f'\n明日の配達は{deli[0]}です'}
         try:
             requests.post(line_notify_api, data=group_payload, headers=group_headers)
@@ -70,7 +70,7 @@ if menu is not None:
             print('Error\n', message_date, message)
     else:
         print(message_date + ' order is none\n')
-    # menu.finish=1
-    # s.commit()
+    menu.finish=1
+    s.commit()
 else:
     print(message_date + ' menu is none\n')
