@@ -270,8 +270,8 @@ def point():
 
     last = now - datetime.timedelta(days=now.day+1)
     month = last.strftime("%Y%m")
-    query = f'''select name,point from ( select * from points where month = {month} order by point 
-            desc ) as a inner join "user" on a.user_id = "user".id;'''
+    query = f'''select name,point from ( select * from points where month = {month} ) as a inner join "user" 
+            on a.user_id = "user".id order by point desc;'''
     df = pd.read_sql(query, maco_db)
     tmp = []
     for index, row in df.iterrows():
