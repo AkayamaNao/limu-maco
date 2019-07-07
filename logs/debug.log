@@ -1979,3 +1979,759 @@
 2019-06-29 22:01:58,087     INFO _internal.py:L122: 127.0.0.1 - - [29/Jun/2019 22:01:58] "GET /data/20190628 HTTP/1.1" 200 -
 2019-06-29 22:02:03,206     INFO _internal.py:L122: 127.0.0.1 - - [29/Jun/2019 22:02:03] "GET / HTTP/1.1" 302 -
 2019-06-29 22:02:04,862     INFO _internal.py:L122: 127.0.0.1 - - [29/Jun/2019 22:02:04] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 19:33:31,894     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 19:33:39,156  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 19:33:39,165     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 19:33:40,301     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 19:33:48,847     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 19:33:48] "GET / HTTP/1.1" 302 -
+2019-07-02 19:33:48,884     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 19:33:48] "GET /login HTTP/1.1" 200 -
+2019-07-02 19:33:49,485     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 19:33:49] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-02 19:33:53,455     INFO __init__.py:L315: Requested form ImmutableMultiDict([('user_id', 'akayama'), ('submit', 'ログイン')])
+2019-07-02 19:33:56,952     INFO __init__.py:L325: User akayama logged in successfully.
+2019-07-02 19:33:56,952    DEBUG __init__.py:L327: <SecureCookieSession {'user_id': 'akayama'}>
+2019-07-02 19:33:56,955     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 19:33:56] "POST /login HTTP/1.1" 302 -
+2019-07-02 19:33:58,754     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 19:33:58] "GET / HTTP/1.1" 302 -
+2019-07-02 19:34:00,357     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 19:34:00] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 19:57:33,850     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\settings.py', reloading
+2019-07-02 19:57:34,596     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 19:57:43,065  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 19:57:43,075     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 19:57:44,005     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 19:58:23,569     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-02 19:58:24,066     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 20:07:26,818     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 20:07:32,736  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 20:07:32,742     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 20:07:33,705     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 20:07:37,689     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:07:37] "GET / HTTP/1.1" 302 -
+2019-07-02 20:07:39,366     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:07:39] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 20:07:44,416     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:07:44] "GET / HTTP/1.1" 302 -
+2019-07-02 20:07:46,007     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:07:46] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 20:08:10,130     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 20:08:15,672  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 20:08:15,680     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 20:08:16,543     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 20:08:20,314     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:08:20] "GET / HTTP/1.1" 302 -
+2019-07-02 20:08:21,914     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:08:21] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 20:08:31,057     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:08:31] "GET /data HTTP/1.1" 200 -
+2019-07-02 20:08:36,121     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:08:36] "GET /data/20190702 HTTP/1.1" 200 -
+2019-07-02 20:08:39,975     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:08:39] "GET /data HTTP/1.1" 200 -
+2019-07-02 20:08:45,507     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:08:45] "GET / HTTP/1.1" 302 -
+2019-07-02 20:08:47,583     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:08:47] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 20:09:36,797     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\settings.py', reloading
+2019-07-02 20:09:37,605     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 20:09:43,943  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 20:09:43,951     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 20:09:44,789     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 20:09:49,727     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:09:49] "GET / HTTP/1.1" 302 -
+2019-07-02 20:09:51,327     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:09:51] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 20:09:57,354     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\settings.py', reloading
+2019-07-02 20:09:57,856     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 20:10:04,369  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 20:10:04,381     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 20:10:05,264     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 20:10:58,328     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\settings.py', reloading
+2019-07-02 20:10:58,460     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 20:11:05,630     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 20:11:11,540  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 20:11:11,546     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 20:11:12,386     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 20:11:18,221     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 20:11:18] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 21:12:33,491     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\settings.py', reloading
+2019-07-02 21:12:33,803     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 21:15:37,557     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 21:15:43,339  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 21:15:43,345     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 21:15:44,230     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 21:15:50,196    ERROR __init__.py:L52: Unexpected error: akayama is not found in DB
+2019-07-02 21:15:50,201     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 21:15:50] "GET / HTTP/1.1" 302 -
+2019-07-02 21:15:50,239     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 21:15:50] "GET /login HTTP/1.1" 200 -
+2019-07-02 21:15:53,376     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'akayama'), ('submit', 'ログイン')])
+2019-07-02 21:15:55,003     INFO __init__.py:L329: Wrong ID
+2019-07-02 21:15:55,006     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 21:15:55] "POST /login HTTP/1.1" 200 -
+2019-07-02 21:26:14,839     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\models\\__init__.py', reloading
+2019-07-02 21:26:15,417     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 21:26:21,995  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 21:26:22,001     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 21:26:22,841     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 21:30:02,804     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 21:30:09,281  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 21:30:09,287     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 21:30:10,129     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 21:36:07,399     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 21:36:07] "GET /addaccount HTTP/1.1" 200 -
+2019-07-02 21:36:23,718     INFO __init__.py:L383: User a logged in successfully.
+2019-07-02 21:36:23,728     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 21:36:23] "POST /addaccount HTTP/1.1" 302 -
+2019-07-02 21:36:24,557     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 21:36:24] "GET / HTTP/1.1" 302 -
+2019-07-02 21:36:26,334     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 21:36:26] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 22:17:33,126     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\models\\__init__.py', reloading
+2019-07-02 22:17:33,600     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 22:17:41,528  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 22:17:41,535     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 22:17:42,458     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 22:20:29,917     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-02 22:20:30,044     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 22:20:36,173  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 22:20:36,181     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 22:20:42,675     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 22:20:48,632  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 22:20:48,640     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 22:20:49,503     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 22:20:54,100     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 22:20:54] "GET / HTTP/1.1" 302 -
+2019-07-02 22:20:55,759     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 22:20:55] "GET /addmenu HTTP/1.1" 200 -
+2019-07-02 22:21:04,031     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190704'), ('menu1', 'みそカツ丼'), ('menu2', '牛すじ煮込み丼'), ('menu3', 'チリからあげ丼'), ('submit', '登録')])
+2019-07-02 22:21:04,568     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 22:21:04] "POST /addmenu HTTP/1.1" 302 -
+2019-07-02 22:21:05,647     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 22:21:05] "GET / HTTP/1.1" 200 -
+2019-07-02 22:22:51,581     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 22:22:51] "POST / HTTP/1.1" 200 -
+2019-07-02 22:22:56,761     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 22:22:56] "GET /data HTTP/1.1" 200 -
+2019-07-02 22:23:02,532     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 22:23:02] "GET /data/20190704 HTTP/1.1" 200 -
+2019-07-02 22:23:05,411     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 22:23:05] "GET /data HTTP/1.1" 200 -
+2019-07-02 22:37:36,609     INFO _internal.py:L122:  * Restarting with stat
+2019-07-02 22:37:42,964  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-02 22:37:42,974     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-02 22:37:43,814     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-02 22:37:49,923     INFO _internal.py:L122: 127.0.0.1 - - [02/Jul/2019 22:37:49] "GET / HTTP/1.1" 200 -
+2019-07-06 18:12:18,860     INFO _internal.py:L122:  * Restarting with stat
+2019-07-06 18:12:24,187  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-06 18:12:24,187     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-06 18:12:24,191     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-06 18:13:32,956     INFO _internal.py:L122: 127.0.0.1 - - [06/Jul/2019 18:13:32] "GET / HTTP/1.1" 302 -
+2019-07-06 18:13:32,964     INFO _internal.py:L122: 127.0.0.1 - - [06/Jul/2019 18:13:32] "GET /login HTTP/1.1" 200 -
+2019-07-06 18:13:33,207     INFO _internal.py:L122: 127.0.0.1 - - [06/Jul/2019 18:13:33] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-06 18:13:45,521     INFO _internal.py:L122: 127.0.0.1 - - [06/Jul/2019 18:13:45] "GET / HTTP/1.1" 302 -
+2019-07-06 18:13:45,526     INFO _internal.py:L122: 127.0.0.1 - - [06/Jul/2019 18:13:45] "GET /login HTTP/1.1" 200 -
+2019-07-06 18:14:05,026     INFO __init__.py:L315: Requested form ImmutableMultiDict([('user_id', 'akayama'), ('submit', 'ログイン')])
+2019-07-06 18:14:08,640     INFO __init__.py:L330: Wrong ID
+2019-07-06 18:14:08,641     INFO _internal.py:L122: 127.0.0.1 - - [06/Jul/2019 18:14:08] "POST /login HTTP/1.1" 200 -
+2019-07-06 22:36:43,396     INFO _internal.py:L122:  * Restarting with stat
+2019-07-06 22:36:48,821  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-06 22:36:48,823     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-06 22:36:49,517     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 01:11:04,294     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 01:11:11,141  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 01:11:11,147     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 01:11:11,159     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 01:11:11,326     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:11:11] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:11:21,239     INFO __init__.py:L315: Requested form ImmutableMultiDict([('user_id', 'test'), ('submit', 'ログイン')])
+2019-07-07 01:11:24,813     INFO __init__.py:L330: Wrong ID
+2019-07-07 01:11:24,815     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:11:24] "POST /login HTTP/1.1" 200 -
+2019-07-07 01:11:28,220     INFO __init__.py:L315: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 01:11:29,802     INFO __init__.py:L325: User a logged in successfully.
+2019-07-07 01:11:29,802    DEBUG __init__.py:L327: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 01:11:29,808     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:11:29] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:11:31,806     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:11:31] "GET / HTTP/1.1" 302 -
+2019-07-07 01:11:32,369     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:11:32] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:11:37,453     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:11:37] "GET /data HTTP/1.1" 200 -
+2019-07-07 01:11:41,140     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:11:41] "GET /data/20190704 HTTP/1.1" 200 -
+2019-07-07 01:12:33,993     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190708'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:12:33,997     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:12:33] "POST /addmenu HTTP/1.1" 200 -
+2019-07-07 01:12:46,741     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:12:46] "GET / HTTP/1.1" 302 -
+2019-07-07 01:12:48,753     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:12:48] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:13:23,358     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190709'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:13:23,360     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:13:23] "POST /addmenu HTTP/1.1" 200 -
+2019-07-07 01:13:31,675     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190708'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:13:31,676     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:13:31] "POST /addmenu HTTP/1.1" 200 -
+2019-07-07 01:14:58,442     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 01:15:07,282  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 01:15:07,295     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 01:15:07,316     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 01:15:11,804     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:15:11] "GET / HTTP/1.1" 302 -
+2019-07-07 01:15:13,798     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:15:13] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:15:26,692     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190708'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:16:21,208     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 01:16:27,884  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 01:16:27,888     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 01:16:27,898     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 01:16:40,708     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:16:40] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:16:47,951     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190708'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:16:48,311     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:16:48] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 01:16:49,744     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:16:49] "GET / HTTP/1.1" 200 -
+2019-07-07 01:16:55,111     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:16:55] "POST / HTTP/1.1" 200 -
+2019-07-07 01:17:00,136     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:00] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:17:00,435     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:00] "GET / HTTP/1.1" 302 -
+2019-07-07 01:17:00,936     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:00] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:17:02,406     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:02] "GET /addaccount HTTP/1.1" 200 -
+2019-07-07 01:17:10,924     INFO __init__.py:L383: User b logged in successfully.
+2019-07-07 01:17:10,926     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:10] "POST /addaccount HTTP/1.1" 302 -
+2019-07-07 01:17:12,211     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:12] "GET / HTTP/1.1" 200 -
+2019-07-07 01:17:19,503     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:19] "POST / HTTP/1.1" 200 -
+2019-07-07 01:17:21,049     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:21] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:17:21,061     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:21] "GET / HTTP/1.1" 302 -
+2019-07-07 01:17:21,378     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:21] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:17:24,217     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:24] "GET /addaccount HTTP/1.1" 200 -
+2019-07-07 01:17:29,804     INFO __init__.py:L383: User c logged in successfully.
+2019-07-07 01:17:29,807     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:29] "POST /addaccount HTTP/1.1" 302 -
+2019-07-07 01:17:31,280     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:31] "GET / HTTP/1.1" 200 -
+2019-07-07 01:17:36,666     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:17:36] "POST / HTTP/1.1" 200 -
+2019-07-07 01:37:57,164     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 01:38:03,715  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 01:38:03,721     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 01:38:03,731     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 01:39:08,524     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:08] "GET / HTTP/1.1" 302 -
+2019-07-07 01:39:10,133     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:10] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:39:17,551     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190709'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:39:17,919     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:17] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 01:39:19,041     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:19] "GET / HTTP/1.1" 200 -
+2019-07-07 01:39:24,484     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:24] "POST / HTTP/1.1" 200 -
+2019-07-07 01:39:25,985     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:25] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:39:26,284     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:26] "GET / HTTP/1.1" 302 -
+2019-07-07 01:39:26,599     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:26] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:39:31,059     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 01:39:32,659     INFO __init__.py:L324: User a logged in successfully.
+2019-07-07 01:39:32,659    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 01:39:32,662     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:32] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:39:35,122     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:35] "GET / HTTP/1.1" 200 -
+2019-07-07 01:39:38,863     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:38] "POST / HTTP/1.1" 200 -
+2019-07-07 01:39:39,456     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:39] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:39:39,464     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:39] "GET / HTTP/1.1" 302 -
+2019-07-07 01:39:39,776     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:39] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:39:41,896     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'b'), ('submit', 'ログイン')])
+2019-07-07 01:39:43,460     INFO __init__.py:L324: User b logged in successfully.
+2019-07-07 01:39:43,461    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'b'}>
+2019-07-07 01:39:43,463     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:43] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:39:46,176     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:46] "GET / HTTP/1.1" 200 -
+2019-07-07 01:39:58,594     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:39:58] "POST / HTTP/1.1" 200 -
+2019-07-07 01:42:36,113     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:36] "GET / HTTP/1.1" 302 -
+2019-07-07 01:42:36,658     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:36] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:42:47,267     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190710'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:42:47,620     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:47] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 01:42:48,903     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:48] "GET / HTTP/1.1" 200 -
+2019-07-07 01:42:52,323     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:52] "POST / HTTP/1.1" 200 -
+2019-07-07 01:42:54,351     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:54] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:42:54,650     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:54] "GET / HTTP/1.1" 302 -
+2019-07-07 01:42:54,960     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:54] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:42:57,245     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 01:42:57,769     INFO __init__.py:L324: User a logged in successfully.
+2019-07-07 01:42:57,770    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 01:42:57,772     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:57] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:42:59,371     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:42:59] "GET / HTTP/1.1" 200 -
+2019-07-07 01:43:06,269     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:43:06] "POST / HTTP/1.1" 200 -
+2019-07-07 01:45:16,771     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:16] "GET / HTTP/1.1" 302 -
+2019-07-07 01:45:17,303     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:17] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:45:24,456     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190711'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:45:24,808     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:24] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 01:45:26,219     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:26] "GET / HTTP/1.1" 200 -
+2019-07-07 01:45:31,870     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:31] "POST / HTTP/1.1" 200 -
+2019-07-07 01:45:32,823     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:32] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:45:32,832     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:32] "GET / HTTP/1.1" 302 -
+2019-07-07 01:45:33,143     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:33] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:45:36,159     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'b'), ('submit', 'ログイン')])
+2019-07-07 01:45:36,864     INFO __init__.py:L324: User b logged in successfully.
+2019-07-07 01:45:36,864    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'b'}>
+2019-07-07 01:45:36,866     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:36] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:45:38,096     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:38] "GET / HTTP/1.1" 200 -
+2019-07-07 01:45:43,942     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:45:43] "POST / HTTP/1.1" 200 -
+2019-07-07 01:46:42,527     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:46:42] "GET / HTTP/1.1" 302 -
+2019-07-07 01:46:44,209     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:46:44] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:46:50,382     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190708'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:46:50,742     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:46:50] "POST /addmenu HTTP/1.1" 200 -
+2019-07-07 01:47:03,477     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190712'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:47:03,836     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:03] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 01:47:04,953     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:04] "GET / HTTP/1.1" 200 -
+2019-07-07 01:47:14,506     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:14] "POST / HTTP/1.1" 200 -
+2019-07-07 01:47:15,624     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:15] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:47:15,924     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:15] "GET / HTTP/1.1" 302 -
+2019-07-07 01:47:16,235     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:16] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:47:18,520     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 01:47:20,336     INFO __init__.py:L324: User a logged in successfully.
+2019-07-07 01:47:20,336    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 01:47:20,339     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:20] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:47:21,607     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:21] "GET / HTTP/1.1" 200 -
+2019-07-07 01:47:26,647     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:26] "POST / HTTP/1.1" 200 -
+2019-07-07 01:47:27,248     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:27] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:47:27,258     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:27] "GET / HTTP/1.1" 302 -
+2019-07-07 01:47:27,571     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:27] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:47:28,649     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:28] "GET /addaccount HTTP/1.1" 200 -
+2019-07-07 01:47:32,912     INFO __init__.py:L383: User d logged in successfully.
+2019-07-07 01:47:32,914     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:32] "POST /addaccount HTTP/1.1" 302 -
+2019-07-07 01:47:34,331     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:34] "GET / HTTP/1.1" 200 -
+2019-07-07 01:47:44,894     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:47:44] "POST / HTTP/1.1" 200 -
+2019-07-07 01:48:47,947     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:48:47] "GET / HTTP/1.1" 302 -
+2019-07-07 01:48:48,488     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:48:48] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:48:59,380     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190715'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 01:48:59,730     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:48:59] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 01:49:00,790     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:00] "GET / HTTP/1.1" 200 -
+2019-07-07 01:49:05,072     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:05] "POST / HTTP/1.1" 200 -
+2019-07-07 01:49:05,763     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:05] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:49:06,064     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:06] "GET / HTTP/1.1" 302 -
+2019-07-07 01:49:06,377     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:06] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:49:08,778     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 01:49:09,308     INFO __init__.py:L324: User a logged in successfully.
+2019-07-07 01:49:09,309    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 01:49:09,311     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:09] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:49:10,537     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:10] "GET / HTTP/1.1" 200 -
+2019-07-07 01:49:14,670     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:14] "POST / HTTP/1.1" 200 -
+2019-07-07 01:49:15,531     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:15] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:49:15,539     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:15] "GET / HTTP/1.1" 302 -
+2019-07-07 01:49:15,852     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:15] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:49:18,094     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'b'), ('submit', 'ログイン')])
+2019-07-07 01:49:18,624     INFO __init__.py:L324: User b logged in successfully.
+2019-07-07 01:49:18,625    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'b'}>
+2019-07-07 01:49:18,627     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:18] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:49:20,204     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:20] "GET / HTTP/1.1" 200 -
+2019-07-07 01:49:23,869     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:23] "POST / HTTP/1.1" 200 -
+2019-07-07 01:49:24,556     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:24] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:49:24,564     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:24] "GET / HTTP/1.1" 302 -
+2019-07-07 01:49:24,876     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:24] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:49:28,737     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'c'), ('submit', 'ログイン')])
+2019-07-07 01:49:29,261     INFO __init__.py:L324: User c logged in successfully.
+2019-07-07 01:49:29,261    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'c'}>
+2019-07-07 01:49:29,263     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:29] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:49:32,126     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:32] "GET / HTTP/1.1" 200 -
+2019-07-07 01:49:36,118     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:49:36] "POST / HTTP/1.1" 200 -
+2019-07-07 01:50:49,135     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:50:49] "GET / HTTP/1.1" 302 -
+2019-07-07 01:50:49,668     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:50:49] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 01:50:56,866     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190716'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', ''), ('submit', '登録')])
+2019-07-07 01:50:57,219     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:50:57] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 01:50:58,455     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:50:58] "GET / HTTP/1.1" 200 -
+2019-07-07 01:51:02,087     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:02] "POST / HTTP/1.1" 200 -
+2019-07-07 01:51:06,936     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:06] "GET / HTTP/1.1" 200 -
+2019-07-07 01:51:23,333     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:23] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:51:23,341     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:23] "GET / HTTP/1.1" 302 -
+2019-07-07 01:51:23,584     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:23] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:51:26,498     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 01:51:27,023     INFO __init__.py:L324: User a logged in successfully.
+2019-07-07 01:51:27,024    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 01:51:27,026     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:27] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:51:29,542     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:29] "GET / HTTP/1.1" 200 -
+2019-07-07 01:51:33,177     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:33] "POST / HTTP/1.1" 200 -
+2019-07-07 01:51:34,323     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:34] "GET /logout HTTP/1.1" 302 -
+2019-07-07 01:51:34,624     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:34] "GET / HTTP/1.1" 302 -
+2019-07-07 01:51:34,934     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:34] "GET /login HTTP/1.1" 200 -
+2019-07-07 01:51:38,293     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'b'), ('submit', 'ログイン')])
+2019-07-07 01:51:40,106     INFO __init__.py:L324: User b logged in successfully.
+2019-07-07 01:51:40,106    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'b'}>
+2019-07-07 01:51:40,108     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:40] "POST /login HTTP/1.1" 302 -
+2019-07-07 01:51:41,519     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:41] "GET / HTTP/1.1" 200 -
+2019-07-07 01:51:48,767     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:51:48] "POST / HTTP/1.1" 200 -
+2019-07-07 01:54:06,637     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 01:54:06] "GET / HTTP/1.1" 200 -
+2019-07-07 02:16:53,173     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 02:16:58,480  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 02:16:58,483     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 02:16:58,487     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 02:17:17,349     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:17] "GET / HTTP/1.1" 302 -
+2019-07-07 02:17:18,975     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:18] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 02:17:27,903     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190717'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 02:17:28,255     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:28] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 02:17:29,318     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:29] "GET / HTTP/1.1" 200 -
+2019-07-07 02:17:40,063     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:40] "POST / HTTP/1.1" 200 -
+2019-07-07 02:17:41,010     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:41] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:17:41,014     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:41] "GET / HTTP/1.1" 302 -
+2019-07-07 02:17:41,321     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:41] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:17:44,192     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 02:17:45,828     INFO __init__.py:L324: User a logged in successfully.
+2019-07-07 02:17:45,829    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 02:17:45,833     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:45] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:17:48,323     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:48] "GET / HTTP/1.1" 200 -
+2019-07-07 02:17:55,050     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:17:55] "POST / HTTP/1.1" 200 -
+2019-07-07 02:18:56,638     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:18:56] "GET / HTTP/1.1" 302 -
+2019-07-07 02:18:58,259     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:18:58] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 02:19:10,231     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190718'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 02:19:10,591     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:19:10] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 02:19:11,669     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:19:11] "GET / HTTP/1.1" 200 -
+2019-07-07 02:19:16,494     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:19:16] "POST / HTTP/1.1" 200 -
+2019-07-07 02:19:16,930     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:19:16] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:19:17,229     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:19:17] "GET / HTTP/1.1" 302 -
+2019-07-07 02:19:17,536     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:19:17] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:19:19,528     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'b'), ('submit', 'ログイン')])
+2019-07-07 02:19:20,047     INFO __init__.py:L324: User b logged in successfully.
+2019-07-07 02:19:20,047    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'b'}>
+2019-07-07 02:19:20,049     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:19:20] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:19:21,461     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:19:21] "GET / HTTP/1.1" 200 -
+2019-07-07 02:19:27,081     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:19:27] "POST / HTTP/1.1" 200 -
+2019-07-07 02:20:04,378     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:04] "GET / HTTP/1.1" 302 -
+2019-07-07 02:20:04,905     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:04] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 02:20:35,935     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190725'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 02:20:36,289     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:36] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 02:20:37,529     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:37] "GET / HTTP/1.1" 200 -
+2019-07-07 02:20:41,343     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:41] "POST / HTTP/1.1" 200 -
+2019-07-07 02:20:43,410     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:43] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:20:43,710     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:43] "GET / HTTP/1.1" 302 -
+2019-07-07 02:20:44,018     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:44] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:20:47,633     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 02:20:49,405     INFO __init__.py:L324: User a logged in successfully.
+2019-07-07 02:20:49,405    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 02:20:49,407     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:49] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:20:50,616     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:50] "GET / HTTP/1.1" 200 -
+2019-07-07 02:20:56,060     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:56] "POST / HTTP/1.1" 200 -
+2019-07-07 02:20:57,674     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:57] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:20:57,681     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:57] "GET / HTTP/1.1" 302 -
+2019-07-07 02:20:57,988     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:20:57] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:20:59,552     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'c'), ('submit', 'ログイン')])
+2019-07-07 02:21:00,076     INFO __init__.py:L324: User c logged in successfully.
+2019-07-07 02:21:00,076    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'c'}>
+2019-07-07 02:21:00,077     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:00] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:21:02,716     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:02] "GET / HTTP/1.1" 200 -
+2019-07-07 02:21:06,453     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:06] "POST / HTTP/1.1" 200 -
+2019-07-07 02:21:09,796     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:09] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:21:09,800     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:09] "GET / HTTP/1.1" 302 -
+2019-07-07 02:21:10,104     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:10] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:21:11,826     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'd'), ('submit', 'ログイン')])
+2019-07-07 02:21:13,433     INFO __init__.py:L324: User d logged in successfully.
+2019-07-07 02:21:13,433    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'd'}>
+2019-07-07 02:21:13,435     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:13] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:21:16,263     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:16] "GET / HTTP/1.1" 200 -
+2019-07-07 02:21:20,159     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:20] "POST / HTTP/1.1" 200 -
+2019-07-07 02:21:21,123     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:21] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:21:21,128     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:21] "GET / HTTP/1.1" 302 -
+2019-07-07 02:21:21,433     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:21] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:21:22,786     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:22] "GET /addaccount HTTP/1.1" 200 -
+2019-07-07 02:21:28,813     INFO __init__.py:L383: User e logged in successfully.
+2019-07-07 02:21:28,815     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:28] "POST /addaccount HTTP/1.1" 302 -
+2019-07-07 02:21:30,683     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:30] "GET / HTTP/1.1" 200 -
+2019-07-07 02:21:36,306     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:21:36] "POST / HTTP/1.1" 200 -
+2019-07-07 02:23:59,703     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:23:59] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:23:59,708     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:23:59] "GET / HTTP/1.1" 302 -
+2019-07-07 02:23:59,955     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:23:59] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:24:09,653     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:09] "GET /addaccount HTTP/1.1" 200 -
+2019-07-07 02:24:11,560     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:11] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:24:16,304     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 02:24:17,875     INFO __init__.py:L324: User a logged in successfully.
+2019-07-07 02:24:17,876    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 02:24:17,878     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:17] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:24:19,715     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:19] "GET / HTTP/1.1" 302 -
+2019-07-07 02:24:22,814     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:22] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 02:24:33,657     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190731'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 02:24:34,007     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:34] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 02:24:35,071     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:35] "GET / HTTP/1.1" 200 -
+2019-07-07 02:24:38,736     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:38] "POST / HTTP/1.1" 200 -
+2019-07-07 02:24:39,570     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:39] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:24:39,870     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:39] "GET / HTTP/1.1" 302 -
+2019-07-07 02:24:40,179     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:40] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:24:42,785     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'b'), ('submit', 'ログイン')])
+2019-07-07 02:24:43,302     INFO __init__.py:L324: User b logged in successfully.
+2019-07-07 02:24:43,302    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'b'}>
+2019-07-07 02:24:43,303     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:43] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:24:44,704     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:44] "GET / HTTP/1.1" 200 -
+2019-07-07 02:24:48,363     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:48] "POST / HTTP/1.1" 200 -
+2019-07-07 02:24:49,298     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:49] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:24:49,301     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:49] "GET / HTTP/1.1" 302 -
+2019-07-07 02:24:49,608     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:49] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:24:51,936     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'c'), ('submit', 'ログイン')])
+2019-07-07 02:24:52,638     INFO __init__.py:L324: User c logged in successfully.
+2019-07-07 02:24:52,639    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'c'}>
+2019-07-07 02:24:52,641     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:52] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:24:54,037     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:54] "GET / HTTP/1.1" 200 -
+2019-07-07 02:24:58,750     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:58] "POST / HTTP/1.1" 200 -
+2019-07-07 02:24:59,459     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:59] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:24:59,463     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:59] "GET / HTTP/1.1" 302 -
+2019-07-07 02:24:59,769     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:24:59] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:25:02,015     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'e'), ('submit', 'ログイン')])
+2019-07-07 02:25:02,559     INFO __init__.py:L324: User e logged in successfully.
+2019-07-07 02:25:02,559    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'e'}>
+2019-07-07 02:25:02,561     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:25:02] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:25:05,370     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:25:05] "GET / HTTP/1.1" 200 -
+2019-07-07 02:25:08,465     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:25:08] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:25:08,468     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:25:08] "GET / HTTP/1.1" 302 -
+2019-07-07 02:25:08,776     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:25:08] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:25:09,655     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:25:09] "POST / HTTP/1.1" 200 -
+2019-07-07 02:25:10,928     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'd'), ('submit', 'ログイン')])
+2019-07-07 02:25:12,544     INFO __init__.py:L324: User d logged in successfully.
+2019-07-07 02:25:12,544    DEBUG __init__.py:L326: <SecureCookieSession {'user_id': 'd'}>
+2019-07-07 02:25:12,546     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:25:12] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:25:15,513     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:25:15] "GET / HTTP/1.1" 200 -
+2019-07-07 02:25:20,064     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:25:20] "POST / HTTP/1.1" 200 -
+2019-07-07 02:28:17,137     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:28:17] "GET / HTTP/1.1" 302 -
+2019-07-07 02:28:18,741     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:28:18] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 02:28:28,686     INFO __init__.py:L118: Requested form ImmutableMultiDict([('dateinfo', '20190801'), ('menu1', '味噌カツ'), ('menu2', 'チキン南蛮'), ('menu3', 'カレー'), ('submit', '登録')])
+2019-07-07 02:28:29,039     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:28:29] "POST /addmenu HTTP/1.1" 302 -
+2019-07-07 02:28:30,100     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:28:30] "GET / HTTP/1.1" 200 -
+2019-07-07 02:28:34,071     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:28:34] "POST / HTTP/1.1" 200 -
+2019-07-07 02:28:42,798     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:28:42] "POST / HTTP/1.1" 200 -
+2019-07-07 02:31:14,592     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:14] "GET / HTTP/1.1" 302 -
+2019-07-07 02:31:15,125     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:15] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 02:31:17,803     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:17] "GET /logout HTTP/1.1" 302 -
+2019-07-07 02:31:18,104     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:18] "GET / HTTP/1.1" 302 -
+2019-07-07 02:31:18,411     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:18] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:31:22,564     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'root'), ('submit', 'ログイン')])
+2019-07-07 02:31:22,565     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:22] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:31:22,875     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:22] "GET /root HTTP/1.1" 200 -
+2019-07-07 02:31:23,280     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:23] "GET /static/sha256.js HTTP/1.1" 200 -
+2019-07-07 02:31:28,325     INFO __init__.py:L337: Requested form ImmutableMultiDict([('password', 'maco2019'), ('hashed_password', '88248075a3514f106c0c16ee16aa06a22b56670b7b01ee56da49772218b1b289'), ('submit', 'ログイン')])
+2019-07-07 02:31:28,326     INFO __init__.py:L340: User root logged in successfully.
+2019-07-07 02:31:28,326    DEBUG __init__.py:L342: <SecureCookieSession {'user_id': 'root'}>
+2019-07-07 02:31:28,327     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:28] "POST /root HTTP/1.1" 302 -
+2019-07-07 02:31:32,311     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:32] "GET /collect HTTP/1.1" 200 -
+2019-07-07 02:31:39,483     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:39] "GET /collect/a HTTP/1.1" 200 -
+2019-07-07 02:31:56,410    ERROR __init__.py:L52: Unexpected error: root is not found in DB
+2019-07-07 02:31:56,411     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:56] "GET / HTTP/1.1" 302 -
+2019-07-07 02:31:56,415     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:31:56] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:33:20,505     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 02:33:25,845  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 02:33:25,855     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 02:33:25,855     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 02:33:53,699     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'root'), ('submit', 'ログイン')])
+2019-07-07 02:33:53,700     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:33:53] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:33:53,709     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:33:53] "GET /root HTTP/1.1" 200 -
+2019-07-07 02:33:58,975     INFO __init__.py:L337: Requested form ImmutableMultiDict([('password', 'maco2019'), ('hashed_password', '88248075a3514f106c0c16ee16aa06a22b56670b7b01ee56da49772218b1b289'), ('submit', 'ログイン')])
+2019-07-07 02:33:58,975     INFO __init__.py:L340: User root logged in successfully.
+2019-07-07 02:33:58,975    DEBUG __init__.py:L342: <SecureCookieSession {'user_id': 'root'}>
+2019-07-07 02:33:58,976     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:33:58] "POST /root HTTP/1.1" 302 -
+2019-07-07 02:34:03,664     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:34:03] "GET /collect HTTP/1.1" 200 -
+2019-07-07 02:34:08,306     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:34:08] "GET /collect/b HTTP/1.1" 200 -
+2019-07-07 02:35:02,195     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 02:35:07,509  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 02:35:07,511     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 02:35:07,516     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 02:35:11,082    ERROR __init__.py:L52: Unexpected error: root is not found in DB
+2019-07-07 02:35:11,084     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:35:11] "GET / HTTP/1.1" 302 -
+2019-07-07 02:35:11,101     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:35:11] "GET /login HTTP/1.1" 200 -
+2019-07-07 02:35:14,844     INFO __init__.py:L314: Requested form ImmutableMultiDict([('user_id', 'root'), ('submit', 'ログイン')])
+2019-07-07 02:35:14,845     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:35:14] "POST /login HTTP/1.1" 302 -
+2019-07-07 02:35:15,145     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:35:15] "GET /root HTTP/1.1" 200 -
+2019-07-07 02:35:20,245     INFO __init__.py:L337: Requested form ImmutableMultiDict([('password', 'maco2019'), ('hashed_password', '88248075a3514f106c0c16ee16aa06a22b56670b7b01ee56da49772218b1b289'), ('submit', 'ログイン')])
+2019-07-07 02:35:20,246     INFO __init__.py:L340: User root logged in successfully.
+2019-07-07 02:35:20,246    DEBUG __init__.py:L342: <SecureCookieSession {'user_id': 'root'}>
+2019-07-07 02:35:20,247     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:35:20] "POST /root HTTP/1.1" 302 -
+2019-07-07 02:35:22,826     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:35:22] "GET /collect HTTP/1.1" 200 -
+2019-07-07 02:35:27,176     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:35:27] "GET /collect/b HTTP/1.1" 200 -
+2019-07-07 02:35:40,541     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:35:40] "GET /collect/a HTTP/1.1" 200 -
+2019-07-07 02:36:52,094     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:36:52] "GET /collect/c HTTP/1.1" 200 -
+2019-07-07 02:37:21,550     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:37:21] "GET /collect/d HTTP/1.1" 200 -
+2019-07-07 02:37:26,044     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:37:26] "GET /collect/e HTTP/1.1" 200 -
+2019-07-07 02:37:33,259     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:37:33] "GET /collect/c HTTP/1.1" 200 -
+2019-07-07 02:37:37,646     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:37:37] "GET /collect/a HTTP/1.1" 200 -
+2019-07-07 02:37:41,400     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:37:41] "GET /collect/b HTTP/1.1" 200 -
+2019-07-07 02:37:46,425     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 02:37:46] "GET /collect/c HTTP/1.1" 200 -
+2019-07-07 02:59:44,191     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 02:59:45,691     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 02:59:50,838  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 02:59:50,848     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 02:59:50,848     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:01:08,268     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:01:08,348     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:01:13,728  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:01:13,728     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:01:13,728     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:01:27,628     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:01:32,972  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:01:32,974     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:01:32,978     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:01:37,787    ERROR __init__.py:L53: Unexpected error: root is not found in DB
+2019-07-07 03:01:37,788     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:01:37] "GET / HTTP/1.1" 302 -
+2019-07-07 03:01:37,797     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:01:37] "GET /login HTTP/1.1" 200 -
+2019-07-07 03:01:40,893     INFO __init__.py:L315: Requested form ImmutableMultiDict([('user_id', 'root'), ('submit', 'ログイン')])
+2019-07-07 03:01:40,895     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:01:40] "POST /login HTTP/1.1" 302 -
+2019-07-07 03:01:41,193     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:01:41] "GET /root HTTP/1.1" 200 -
+2019-07-07 03:01:47,150     INFO __init__.py:L338: Requested form ImmutableMultiDict([('password', 'maco2019'), ('hashed_password', '88248075a3514f106c0c16ee16aa06a22b56670b7b01ee56da49772218b1b289'), ('submit', 'ログイン')])
+2019-07-07 03:01:47,151     INFO __init__.py:L341: User root logged in successfully.
+2019-07-07 03:01:47,151    DEBUG __init__.py:L343: <SecureCookieSession {'user_id': 'root'}>
+2019-07-07 03:01:47,155     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:01:47] "POST /root HTTP/1.1" 302 -
+2019-07-07 03:01:49,615     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:01:49] "GET /collect HTTP/1.1" 200 -
+2019-07-07 03:01:54,245     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:01:54] "GET /collect/a HTTP/1.1" 200 -
+2019-07-07 03:08:43,469     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:08:44,129     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:08:49,409  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:08:49,409     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:08:49,409     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:10:09,969     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:10:10,079     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:10:15,531  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:10:15,533     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:10:15,537     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:10:20,887     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:10:20] "GET /collect/a HTTP/1.1" 500 -
+2019-07-07 03:10:20,921     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:10:20] "GET /collect/a?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-07 03:10:20,965     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:10:20] "GET /collect/a?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-07 03:10:21,220     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:10:21] "GET /collect/a?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-07 03:10:21,645     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:10:21] "GET /collect/a?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-07-07 03:10:21,646     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:10:21] "GET /collect/a?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-07 03:10:21,904     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:10:21] "GET /collect/a?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-07 03:12:39,149     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:12:45,020  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:12:45,027     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:12:45,035     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:12:52,758     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:12:52] "GET /collect HTTP/1.1" 200 -
+2019-07-07 03:13:44,701     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:13:44] "GET /collect/a HTTP/1.1" 200 -
+2019-07-07 03:14:22,551     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:14:22] "GET /collect/b HTTP/1.1" 200 -
+2019-07-07 03:16:08,569     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:16:13,759  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:16:13,759     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:16:13,759     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:16:21,271     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:16:21] "GET /collect/a HTTP/1.1" 200 -
+2019-07-07 03:16:30,282     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:16:30] "POST /collect/a HTTP/1.1" 302 -
+2019-07-07 03:16:31,830     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:16:31] "GET /collect HTTP/1.1" 200 -
+2019-07-07 03:16:40,747     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:16:40] "GET /collect/c HTTP/1.1" 200 -
+2019-07-07 03:16:48,822     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:16:48] "POST /collect/c HTTP/1.1" 302 -
+2019-07-07 03:16:49,900     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:16:49] "GET /collect HTTP/1.1" 200 -
+2019-07-07 03:24:04,574    ERROR __init__.py:L53: Unexpected error: root is not found in DB
+2019-07-07 03:24:04,575     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:24:04] "GET / HTTP/1.1" 302 -
+2019-07-07 03:24:04,582     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:24:04] "GET /login HTTP/1.1" 200 -
+2019-07-07 03:24:07,049     INFO __init__.py:L323: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 03:24:08,640     INFO __init__.py:L333: User a logged in successfully.
+2019-07-07 03:24:08,640    DEBUG __init__.py:L335: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 03:24:08,643     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:24:08] "POST /login HTTP/1.1" 302 -
+2019-07-07 03:24:09,716     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:24:09] "GET / HTTP/1.1" 302 -
+2019-07-07 03:24:10,558     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:24:10] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 03:24:17,776     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:24:17] "GET /data HTTP/1.1" 200 -
+2019-07-07 03:27:05,043     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:27:05] "GET /data/20190801 HTTP/1.1" 200 -
+2019-07-07 03:30:31,754     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:30:32,904     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:30:38,305  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:30:38,307     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:30:38,312     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:30:43,107     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:30:43] "GET / HTTP/1.1" 302 -
+2019-07-07 03:30:44,729     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:30:44] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 03:30:47,828     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:30:47] "GET /data HTTP/1.1" 200 -
+2019-07-07 03:30:53,081     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:30:53] "GET /data/20190731 HTTP/1.1" 200 -
+2019-07-07 03:31:04,569     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:31:04] "GET /data/20190731 HTTP/1.1" 200 -
+2019-07-07 03:31:20,046     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:31:20] "GET /data HTTP/1.1" 200 -
+2019-07-07 03:32:18,434     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:32:19,604     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:32:24,804  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:32:24,804     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:32:24,817     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:35:27,471     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:35:27,564     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:35:32,929  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:35:32,929     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:35:32,929     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:35:55,473     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:36:00,699  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:36:00,709     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:36:00,709     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:36:04,897     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:36:04] "GET / HTTP/1.1" 302 -
+2019-07-07 03:36:06,473     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:36:06] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 03:36:11,439     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:36:11] "GET /point HTTP/1.1" 200 -
+2019-07-07 03:38:12,301     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:38:12] "GET /point HTTP/1.1" 200 -
+2019-07-07 03:40:41,149     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:40:41] "GET /point HTTP/1.1" 200 -
+2019-07-07 03:41:01,172     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:41:01] "GET /data HTTP/1.1" 200 -
+2019-07-07 03:41:04,483     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:41:04] "GET /data/20190801 HTTP/1.1" 200 -
+2019-07-07 03:41:09,324     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:41:09] "GET /data/20190725 HTTP/1.1" 200 -
+2019-07-07 03:53:59,208     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:54:00,381     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:54:08,398     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:54:13,996  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:54:13,998     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:54:14,003     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:54:17,835     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:17] "GET / HTTP/1.1" 302 -
+2019-07-07 03:54:19,459     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:19] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 03:54:25,411     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:25] "GET /point HTTP/1.1" 500 -
+2019-07-07 03:54:25,427     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:25] "GET /point?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-07 03:54:25,731     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:25] "GET /point?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-07 03:54:25,732     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:25] "GET /point?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-07 03:54:26,140     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:26] "GET /point?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-07-07 03:54:26,143     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:26] "GET /point?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-07 03:54:26,406     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:26] "GET /point?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-07 03:54:43,836     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:54:44,356     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:54:49,924  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:54:49,926     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:54:49,931     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:54:56,156     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:56] "GET /point HTTP/1.1" 500 -
+2019-07-07 03:54:56,194     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:56] "GET /point?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-07 03:54:56,194     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:56] "GET /point?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-07 03:54:56,495     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:56] "GET /point?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-07 03:54:56,924     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:56] "GET /point?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-07-07 03:54:56,926     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:54:56] "GET /point?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-07 03:57:30,256     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:57:30,388     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:57:36,018  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:57:36,020     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:57:36,025     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:57:43,651     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:57:43] "GET /point HTTP/1.1" 200 -
+2019-07-07 03:58:09,209     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 03:58:09,517     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 03:58:15,236  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 03:58:15,236     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 03:58:15,246     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 03:58:56,158     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:58:56] "GET / HTTP/1.1" 302 -
+2019-07-07 03:58:57,806     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:58:57] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 03:59:04,366     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 03:59:04] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:02:55,070     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:02:55] "GET / HTTP/1.1" 302 -
+2019-07-07 04:02:56,713     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:02:56] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 04:03:02,930     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:03:02] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:03:31,614     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 04:03:32,495     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 04:03:38,254  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 04:03:38,256     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 04:03:38,261     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 04:03:43,010     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:03:43] "GET / HTTP/1.1" 302 -
+2019-07-07 04:03:44,682     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:03:44] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 04:03:51,852     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:03:51] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:04:30,004     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 04:04:30,685     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 04:04:36,405  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 04:04:36,415     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 04:04:36,417     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 04:04:44,858     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:04:44] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:04:57,335     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 04:05:03,434  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 04:05:03,434     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 04:05:03,445     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 04:05:13,663     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:05:13] "GET / HTTP/1.1" 302 -
+2019-07-07 04:05:15,242     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:05:15] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 04:05:22,525     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:05:22] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:05:38,725     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 04:05:45,358  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 04:05:45,369     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 04:05:45,385     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 04:05:55,060     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:05:55] "GET / HTTP/1.1" 302 -
+2019-07-07 04:05:56,754     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:05:56] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 04:06:05,411     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:06:05] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:06:37,954     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:06:37] "GET / HTTP/1.1" 302 -
+2019-07-07 04:06:38,528     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:06:38] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 04:07:42,132     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 04:07:42,530     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 04:07:49,106  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 04:07:49,113     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 04:07:49,122     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 04:08:48,271     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 04:08:48,458     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 04:08:54,955  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 04:08:54,958     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 04:08:54,965     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 04:09:58,286     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 04:09:58,439     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 04:10:05,002  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 04:10:05,009     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 04:10:05,017     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 04:10:27,054     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:10:27] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:10:46,245     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 04:10:52,035  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 04:10:52,045     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 04:10:52,045     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 04:11:02,914     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:11:02] "GET / HTTP/1.1" 302 -
+2019-07-07 04:11:04,557     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:11:04] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 04:11:12,716     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:11:12] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:11:14,919     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:11:14] "GET /data HTTP/1.1" 200 -
+2019-07-07 04:11:24,851     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:11:24] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:11:51,440     INFO _internal.py:L122:  * Detected change in 'C:\\Users\\akayama\\Dropbox\\gitlab\\limu-maco\\views\\__init__.py', reloading
+2019-07-07 04:11:52,445     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 04:11:58,208  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 04:11:58,210     INFO _internal.py:L122:  * Debugger PIN: 280-991-024
+2019-07-07 04:11:58,214     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 04:12:03,753     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:03] "GET / HTTP/1.1" 302 -
+2019-07-07 04:12:05,371     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:05] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 04:12:13,979     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:13] "GET / HTTP/1.1" 302 -
+2019-07-07 04:12:19,376     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:19] "GET /point HTTP/1.1" 200 -
+2019-07-07 04:12:27,109     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:27] "GET /logout HTTP/1.1" 302 -
+2019-07-07 04:12:27,127     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:27] "GET / HTTP/1.1" 302 -
+2019-07-07 04:12:27,367     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:27] "GET /login HTTP/1.1" 200 -
+2019-07-07 04:12:30,754     INFO __init__.py:L364: Requested form ImmutableMultiDict([('user_id', 'root'), ('submit', 'ログイン')])
+2019-07-07 04:12:30,755     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:30] "POST /login HTTP/1.1" 302 -
+2019-07-07 04:12:30,767     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:30] "GET /root HTTP/1.1" 200 -
+2019-07-07 04:12:37,352     INFO __init__.py:L387: Requested form ImmutableMultiDict([('password', 'maco2019'), ('hashed_password', '88248075a3514f106c0c16ee16aa06a22b56670b7b01ee56da49772218b1b289'), ('submit', 'ログイン')])
+2019-07-07 04:12:37,353     INFO __init__.py:L390: User root logged in successfully.
+2019-07-07 04:12:37,353    DEBUG __init__.py:L392: <SecureCookieSession {'user_id': 'root'}>
+2019-07-07 04:12:37,354     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:37] "POST /root HTTP/1.1" 302 -
+2019-07-07 04:12:38,204     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:38] "GET /collect HTTP/1.1" 200 -
+2019-07-07 04:12:45,457     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 04:12:45] "GET /point HTTP/1.1" 200 -
+2019-07-07 15:03:23,906     INFO _internal.py:L122:  * Restarting with stat
+2019-07-07 15:03:31,647  WARNING _internal.py:L122:  * Debugger is active!
+2019-07-07 15:03:31,658     INFO _internal.py:L122:  * Debugger PIN: 107-515-226
+2019-07-07 15:03:32,508     INFO _internal.py:L122:  * Running on http://0.0.0.0:21222/ (Press CTRL+C to quit)
+2019-07-07 15:03:33,808     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:03:33] "GET / HTTP/1.1" 302 -
+2019-07-07 15:03:33,850     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:03:33] "GET /login HTTP/1.1" 200 -
+2019-07-07 15:03:34,403     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:03:34] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-07 15:03:40,219     INFO __init__.py:L364: Requested form ImmutableMultiDict([('user_id', 'a'), ('submit', 'ログイン')])
+2019-07-07 15:03:43,880     INFO __init__.py:L374: User a logged in successfully.
+2019-07-07 15:03:43,880    DEBUG __init__.py:L376: <SecureCookieSession {'user_id': 'a'}>
+2019-07-07 15:03:43,883     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:03:43] "POST /login HTTP/1.1" 302 -
+2019-07-07 15:03:45,662     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:03:45] "GET / HTTP/1.1" 302 -
+2019-07-07 15:03:47,269     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:03:47] "GET /addmenu HTTP/1.1" 200 -
+2019-07-07 15:04:07,515     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:04:07] "GET /point HTTP/1.1" 200 -
+2019-07-07 15:04:14,986     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:04:14] "GET /data HTTP/1.1" 200 -
+2019-07-07 15:04:19,322     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:04:19] "GET /data/20190801 HTTP/1.1" 200 -
+2019-07-07 15:04:24,210     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:04:24] "GET /data/20190725 HTTP/1.1" 200 -
+2019-07-07 15:05:39,092     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:05:39] "GET /logout HTTP/1.1" 302 -
+2019-07-07 15:05:39,115     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:05:39] "GET / HTTP/1.1" 302 -
+2019-07-07 15:05:39,138     INFO _internal.py:L122: 127.0.0.1 - - [07/Jul/2019 15:05:39] "GET /login HTTP/1.1" 200 -

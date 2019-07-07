@@ -69,3 +69,19 @@ class Menu(db.Model):
         self.menu1 = menu1
         self.menu2 = menu2
         self.menu3 = menu3
+
+
+class Points(db.Model):
+    __tablename__ = 'points'
+    month = db.Column(db.Integer, nullable=False, primary_key=True)
+    user_id = db.Column(db.String(63), nullable=False, primary_key=True)
+    point = db.Column(db.Integer, nullable=False, default=0)
+    bonus=db.Column(db.Integer, nullable=False, default=0)
+    collected = db.Column(db.Integer, nullable=False, default=0)
+    created_at = db.Column(db.Integer, nullable=False, default=now)
+
+    def __init__(self, month, user_id, point,bonus):
+        self.month = month
+        self.user_id = user_id
+        self.point = point
+        self.bonus=bonus

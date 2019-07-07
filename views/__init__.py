@@ -4,19 +4,19 @@ from sqlalchemy import create_engine, distinct
 from sqlalchemy.orm import sessionmaker
 import re
 import datetime
+import pandas as pd
 import psycopg2
 
-import dbconf
 import models
-import settings
+from settings import *
 
 blueprint = Blueprint('view', __name__, static_folder='static')
 
 #maco_db = create_engine('postgres://{user}:{password}@{host}/{database}'.format(**dbconf.maco_db), pool_pre_ping=True)
-maco_db = create_engine(dbconf.maco_db, pool_pre_ping=True)
+maco_db = create_engine(maco_db, pool_pre_ping=True)
 
-root_password = settings.root_password
-update_time = settings.update_time
+root_password = root_password
+update_time = update_time
 
 symbolReg = re.compile(r'^[a-zA-Z0-9!-/:-@[-`{-~]+$')
 
@@ -28,6 +28,7 @@ def isnotsymbol(s):
 def update_date():
     now = datetime.datetime.now()
     update = now + datetime.timedelta(hours=24 - update_time)
+    # update=update+datetime.timedelta(days=30)
     return int(update.strftime("%Y%m%d"))
 
 
@@ -198,7 +199,9 @@ def data():
         current_app.logger.error(f'Unexpected error: {user_id} is not found in DB')
         return redirect(url_for('view.login'))
 
-    menu = s.query(models.Menu).filter(models.Menu.date > update_date() - 30).all()
+    now = datetime.datetime.now()
+    tmp = now - datetime.timedelta(days=30)
+    menu = s.query(models.Menu).filter(models.Menu.date > int(tmp.strftime("%Y%m%d"))).all()
     data = []
     for row in menu:
         data.append(row.date)
@@ -237,6 +240,44 @@ def data2(date):
         return render_template('data2.html', data=orderlist, delivery=delivery.name)
     else:
         return render_template('data2.html', data=orderlist)
+
+@blueprint.route('/point', methods=["GET"])
+def point():
+    # login session
+    if 'user_id' not in session:
+        return redirect(url_for('view.login'))
+    user_id = session['user_id']
+    Session = sessionmaker(bind=maco_db)
+    s = Session()
+    user = s.query(models.User).filter_by(id=user_id).first()
+    if user is None and user_id!='root':
+        current_app.logger.error(f'Unexpected error: {user_id} is not found in DB')
+        return redirect(url_for('view.login'))
+
+    data=[]
+    now = datetime.datetime.now()
+    month=now.strftime("%Y%m")
+    query = f'''select user_id,name,point from (select user_id, sum(mcount) as point from (select user_id, count(user_id)
+                as mcount from menu where date between {month}00 and {month}99 group by user_id union select user_id,
+                count(user_id)*2 as dcount from delivery where date between {month}00 and {month}99 group by user_id)
+                as total group by user_id) as points inner join "user" on  points.user_id = "user".id order by point desc;
+                '''
+    df = pd.read_sql(query, maco_db)
+    tmp=[]
+    for index,row in df.iterrows():
+        tmp.append([row['name'],int(row['point'])])
+    data.append(tmp)
+
+    last = now - datetime.timedelta(days=now.day+1)
+    month = last.strftime("%Y%m")
+    query = f'''select name,point from ( select * from points where month = {month} order by point 
+            desc ) as a inner join "user" on a.user_id = "user".id;'''
+    df = pd.read_sql(query, maco_db)
+    tmp = []
+    for index, row in df.iterrows():
+        tmp.append([row['name'], row['point']])
+    data.append(tmp)
+    return render_template('point.html', data=data)
 
 
 @blueprint.route('/collect', methods=["GET"])
@@ -296,14 +337,22 @@ def collect2(target_user_id):
             data.append([str(date) + ' 配達', '-' + str(300 * num)])
             total = total - 300 * num
 
+        points = s.query(models.Points).filter_by(collected=0, user_id=target_user_id).all()
+        for row in points:
+            data.append([str(row.month) + ' ポイント', '-' + str(row.bonus)])
+            total = total - row.bonus
+
         return render_template('collect2.html', data=data, total=total)
     else:
         order = s.query(models.Order).filter_by(collected=0, user_id=target_user_id).filter(models.Order.order_num != 0,
                                                                                             models.Order.date <= update_date()).all()
         delivery = s.query(models.Delivery).filter_by(collected=0, user_id=target_user_id).all()
+        points = s.query(models.Points).filter_by(collected=0, user_id=target_user_id).all()
         for row in order:
             row.collected = 1
         for row in delivery:
+            row.collected = 1
+        for row in points:
             row.collected = 1
         s.commit()
         return redirect(url_for('view.collect'))
