@@ -201,7 +201,7 @@ def data():
 
     now = datetime.datetime.now()
     tmp = now - datetime.timedelta(days=30)
-    menu = s.query(models.Menu).filter(models.Menu.date > int(tmp.strftime("%Y%m%d"))).all()
+    menu = s.query(models.Menu).filter(models.Menu.date > int(tmp.strftime("%Y%m%d"))).order_by(models.Menu.date).all()
     data = []
     for row in menu:
         data.append(row.date)
