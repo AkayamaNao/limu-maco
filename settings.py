@@ -4,7 +4,7 @@ from pathlib import Path
 import psycopg2
 import subprocess
 
-testmode=1
+testmode=0
 
 DEBUG = True
 
